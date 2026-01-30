@@ -1,5 +1,5 @@
 import { useState } from "react";
-import css from "../App.module.css";
+import css from "./App.module.css";
 
 import type { VoteType, Votes } from "../../types/votes.ts";
 import { CafeInfo } from "../CafeInfo.tsx";
