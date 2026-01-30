@@ -2,10 +2,10 @@ import { useState } from "react";
 import css from "./App.module.css";
 
 import type { VoteType, Votes } from "../../types/votes.ts";
-import { CafeInfo } from "../CafeInfo.tsx";
-import { VoteOptions } from "../VoteOptions.tsx";
-import { VoteStats } from "../VoteStats.tsx";
-import { Notification } from "../Notification.tsx";
+import { CafeInfo } from "../CafeInfo/CafeInfo.tsx";
+import { VoteOptions } from "../VoteOptions/VoteOptions.tsx";
+import { VoteStats } from "../VoteStats/VoteStats.tsx";
+import { Notification } from "../Notification/Notification.tsx";
 
 const initialVotes: Votes = {
   good: 0,
